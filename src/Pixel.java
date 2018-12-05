@@ -13,7 +13,7 @@ public class Pixel implements Comparable<Pixel> {
     
     private int row; // row coordinate of the pixel in the image raster
     private int col; // column coordinate of the pixel
-    private double luminance; // luminance of the pixel
+    private double luminance;// luminance of the pixel
     
 
     /** Constructs a new Pixel object for the specified (x, y) coordinate with
