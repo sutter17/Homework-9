@@ -1,13 +1,13 @@
 package skeleton;
 
-public class Node {	
+public class Node {
 	Pixel pixel;
 	Node parent;
 	double weight;
-	
+
 	public Node(Pixel pixel) {
 		this.pixel = pixel;
-		this.parent = null;
+		this.parent = null; 
 	}
 	public void attatch(Node a) {
 		Edge edge = new Edge(this.pixel,a.pixel);
@@ -15,5 +15,5 @@ public class Node {
 			weight = edge.getWeight();
 		}
 	}
-	
+
 }
