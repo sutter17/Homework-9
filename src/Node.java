@@ -1,7 +1,5 @@
-package skeleton;
-
 public class Node {
-	Pixel pixel;
+	public Pixel pixel;
 	Node parent;
 	double weight;
 
