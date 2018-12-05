@@ -7,7 +7,6 @@ public class DisjointSetForest {
 			for(int c = 0; c < rgbArray[0].length;c++) {
 				forest[r][c] = new Node(new Pixel(r,c,rgbArray[r][c]));
 			}
-			
 		}
 	}
 	public Node node(Pixel pixel) {
