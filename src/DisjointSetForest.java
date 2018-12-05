@@ -33,6 +33,7 @@ public class DisjointSetForest {
                 Pixel a = forest[row][col].pixel;
             	Pixel g = null;
                 a.compareTo(g);
+                
             }
         }
 	}
