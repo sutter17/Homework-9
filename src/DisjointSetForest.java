@@ -14,7 +14,7 @@ public class DisjointSetForest {
 	}
 	public Node find(Node node) {
 		if(node.parent!=null && node.parent != node) {
-			find(node.parent);
+			return find(node.parent);
 		}else {
 			return node;
 		}
@@ -30,9 +30,9 @@ public class DisjointSetForest {
 	public void segment (int gran) {
 		for (int row = 0; row < forest.length; row++) {
             for (int col = 0; col < forest[row].length; col++) {
-                Pixel a = forest[i][j];
-            	Pixel g;
-                if new (Edge(a,g).weight <Math.min(find(a).)
+                Pixel a = forest[row][col].pixel;
+            	Pixel g = null;
+                a.compareTo(g);
             }
         }
 	}
